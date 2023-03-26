@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    display: grid;
+    grid: "video aside";
+    gap: 17px;
+
+}
+
+.container-video {
+    grid-area: video;
+    width: 543px;
+}
+
+.video-info {
+    margin-top: 12px;
+}
+
+.titulo-video {
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.views {
+    margin-bottom: 9px;
+}
+
+.descricao {
+    font-size: 16px;
+}
+
+.views , .titulo-video-sugerido {
+    font-size: 14px;
+}
+
+.barra-lateral {
+    grid-area: aside;
+    width: 270px;
+}
+
+.propaganda {
+    margin-bottom: 20px;
+}
+
+.video-sugerido {
+    margin-bottom: 16px;
+    display:grid;
+    grid: "thumb titulo"
+    "thumb info";
+}
+
+.thumbnail {
+    grid-area: thumb;
+}
+
+.titulo-video-sugerido {
+    grid-area: titulo;
+}
+
+.video-sugerido-info {
+    font-size: 11px;
+    grid-area: info;
+}
